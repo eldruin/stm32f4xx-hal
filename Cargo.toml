@@ -80,6 +80,7 @@ ist7920 = "0.1.0"
 smart-leds = "0.3.0"
 ws2812-spi = { version = "0.4.0", features = [] }
 hd44780-driver = "0.4.0"
+ad983x = { git ="https://github.com/eldruin/ad983x-rs" }
 
 [dev-dependencies.time]
 version = "0.3"
@@ -477,4 +478,3 @@ required-features = ["device-selected"]
 [[example]]
 name = "spi_slave_dma_rtic"
 required-features = ["stm32f411", "rtic"]
-
